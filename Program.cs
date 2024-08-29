@@ -3,7 +3,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Retangulo retangulo = new Retangulo(24.24, 3.32);
+        Console.WriteLine("Digite a altura");
+        double altura = double.Parse(Console.ReadLine());
+        Console.WriteLine("Digite a largura");
+        double largura = double.Parse(Console.ReadLine());
+
+        Retangulo retangulo = new Retangulo(altura, largura);
+        
 
         Console.WriteLine("Hello, World!");
 
