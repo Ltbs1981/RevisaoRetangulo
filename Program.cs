@@ -11,7 +11,7 @@ class Program
         Retangulo retangulo = new Retangulo(altura, largura);
         
 
-        Console.WriteLine("Hello, World!");
+
 
         Console.WriteLine("Perímetro: " + retangulo.CalcularPerimetro());
 
