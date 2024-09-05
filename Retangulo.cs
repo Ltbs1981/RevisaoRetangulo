@@ -5,20 +5,9 @@ namespace RevisaoRetangulo
 {
     public class Retangulo
     {
-        private double _altura;
-        public double Altura
-        {
-            get { return _altura; }
-            set { _altura = value; }
-        }
+        public double Altura{ get; set; }
+        public double  Largura { get; set; }
 
-        private double _largura;
-        public double Largura
-        {
-            get { return _largura; }
-            set { _largura = value; }
-        }
-        // Construtor dentro da classe
         public Retangulo(double altura, double largura)
         {
             Altura = altura;
